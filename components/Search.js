@@ -18,7 +18,7 @@ Search = React.createClass({
     if (event.keyCode === 13) {
       this.props.onSearch(this.state.searchingText);
     }
-  };
+ },
 
 render: function() {
     var styles = {fontSize: '1.5em', width: '90%', maxWidth: '350px'};
@@ -33,4 +33,4 @@ render: function() {
             />
   }
  }
-});
+);
